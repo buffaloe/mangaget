@@ -1,0 +1,10 @@
+mangaget README
+---------------
+
+Download manga chapters from mangafox.com
+
+You must have these things on your PATH:
+   * wget
+   * zip (if you want to use --zip)
+
+Please fork and adapt as you see fit.
