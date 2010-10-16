@@ -5,6 +5,18 @@ Download manga chapters from mangafox.com
 
 You must have these things on your PATH:
    * wget
-   * zip (if you want to use --zip)
+
+To make a comic book archive for a comic reader, use the zip or rar tools to zip
+up a volume directory.
+
+Example usage (will download Rosario Vampire Season II chapters 1 to 35 inclusive,
+into directory 'rosario_vampire_season_ii' in the current working directory):
+
+    perl mangaget.pl --start=1 --end=35 \
+      --url=http://www.mangafox.com/manga/rosario_vampire_season_ii/
+
+TODO:
+   * Parallel downloads
+   * Automatic zip/rar of whole volumes
 
 Please fork and adapt as you see fit.
